@@ -97,3 +97,6 @@
 // console.log(newarray)
 
 // Output: 2
+
+
+// xyz
