@@ -7,6 +7,7 @@
 
 // Callback function-------------------------------------------------------------------------
 
+// e.g 1 :
 // function greet (name,callback){
 //     console.log("hello " + name + " Brother");
 //     callback()
@@ -15,7 +16,23 @@
 // function sayBye(){
 //         console.log("Goodbye")
 //     }
+
 // greet("abhi", sayBye)
+
+//e.g 2 :
+// Here we can use templete literal to add parameter in string
+
+// function greet (name,callback) {
+//     console.log(`Hello ${name} Brother`)
+//     callback()
+// }
+
+// function say () {
+//     console.log("Good Morning")
+// }
+
+// greet('Shubh',say)
+
 
 // Built In High Order Function ---------------------------------------------------------------------
 // 1. forEach() – Iterating Over an Array
@@ -23,22 +40,9 @@
 //  Use it when you just want to perform an action (like logging or modifying something).
 
 // Example:
-
+// Here Annonymous function is used & x is parameter
 // numbers =[11,22,33]
 // numbers.forEach(x => console.log(x));
-
-
-// Callback functions---------------------------------------------------------------------------------
-
-// function greet (name,callback){
-//     console.log("hello " + name + " Brother");
-//     callback()
-// }
-
-// function sayBye(){
-//         console.log("Goodbye")
-//     }
-// greet("abhi", sayBye)
 
 
 //  map() – Transforms Each Element--------------------------------------------------------------------------
@@ -46,9 +50,8 @@
 //  Use it when you want to modify each item and get a new array.
 
 // const numbers =[11,22,33]
-// const newarray = numbers.map(x => x*x);
+// const newarray = numbers.map(x => console.log(x*x));
 
-// console.log(newarray)
 
 
 
