@@ -50,9 +50,29 @@
 //  Use it when you want to modify each item and get a new array.
 // Output Type	Array (even if one element matches)
 
+// e.g 1:----------------------------------------------
 // const numbers =[11,22,33]
 // const newarray = numbers.map(x => console.log(x*x));
 
+
+// e.g 2:----------------------------------------------
+//  const data = 
+// [{name:"Abhi" , age:20 , gender:"male"},
+//     {name:"Akki" , age:21 , gender:"male"},
+//     {name:"Kusu" , age:18 , gender:"female"},
+//     {name:"Rani" , age:20 , gender:"female"}
+//     ]
+    
+//     const newdata = data.map(para => para.age < 21);
+//     console.log(newdata);
+
+// Output: [ true, false, true, true ]
+
+// 👀condition : To check gender is female or not------------
+// These conditions are not ideal for map we must use filter instead
+// const newdata = data.map(para => para.gender === "female");
+// console.log(newdata);
+    
 // filter()------------------------------------------------------------
 // Creates a new array with elements that pass a condition.
 // Returns	An array of all matching elements.
@@ -84,8 +104,31 @@
 
 // Output: [ 3 ]
 
+// e.g. 4: To find candidates only with gender female---------
 
-// find()----------------------------------------------------------
+// const data = 
+// [{name:"Abhi" , age:20 , gender:"male"},
+// {name:"Akki" , age:21 , gender:"male"},
+// {name:"Kusu" , age:18 , gender:"female"},
+// {name:"Rani" , age:20 , gender:"female"}
+// ]
+
+// const newdata = data.filter(para => para.gender === "female");
+// console.log(newdata);
+
+// Output: 
+// [
+//     { name: 'Kusu', age: 18, gender: 'female' },
+//     { name: 'Rani', age: 20, gender: 'female' }
+//   ]
+
+// 👀Condition : To get candidate with age = 21
+// const newdata = data.filter(para => para.age === 21);
+// console.log(newdata);
+
+// Output : [ { name: 'Akki', age: 21, gender: 'male' } ]
+
+// find() ----------------------------------------------------------
 // Returns The first matching element.
 // Output Single element or undefined.
 // Used When you need only the first match
