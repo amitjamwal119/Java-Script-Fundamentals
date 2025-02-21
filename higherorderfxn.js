@@ -48,25 +48,52 @@
 //  map() – Transforms Each Element--------------------------------------------------------------------------
 //  Creates a new array by applying a function to each element.
 //  Use it when you want to modify each item and get a new array.
+// Output Type	Array (even if one element matches)
 
 // const numbers =[11,22,33]
 // const newarray = numbers.map(x => console.log(x*x));
 
-// 
+// filter()------------------------------------------------------------
+// Creates a new array with elements that pass a condition.
+// Returns	An array of all matching elements.
+// When you need all matching elements
+// eg. 1:
+
+// const numbers =[11,22,33]
+// const newarray = numbers.filter(x => console.log(x === 11));
+
+// output :
+// true
+//false
+//false
+
+// eg. 2: To check is number in array even or not---------------
+// const numbers =[1,2,3]
+// const newarray = numbers.filter(x => console.log("Even number in array:" , x % 2 === 0));
+
+// Output:
+// Even number in array: false
+// Even number in array: true
+// Even number in array: false
+
+// eg. 3: To print odd number from array-------------
+// const numbers =[1,2,3]
+// const newarray = numbers.filter(x => x % 3 === 0);
+
+// console.log(newarray)
+
+// Output: [ 3 ]
 
 
+// find()----------------------------------------------------------
+// Returns The first matching element.
+// Output Single element or undefined.
+// Used When you need only the first match
 
+// eg.1 
+// const numbers =[1,2,3,2]
+// const newarray = numbers.find(x => x > 1 );
 
+// console.log(newarray)
 
-
-
-
-
-
-
-
-
-
-
-
-;
+// Output: 2
