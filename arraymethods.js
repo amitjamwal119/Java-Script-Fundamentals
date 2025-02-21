@@ -97,7 +97,7 @@
 // console.log(array.slice(1,3));                  // output : [ 'akki', 'vibhu' ]
 // console.log(Array.slice(1));                        //// output : [ 'akki', 'vibhu' , 'abu']
 
-
+// xyz
 
  
 
