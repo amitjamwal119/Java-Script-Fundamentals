@@ -123,6 +123,7 @@
 //   ]
 
 // 👀Condition : To get candidate with age = 21-----
+
 // const newdata = data.filter(para => para.age === 21);
 // console.log(newdata);
 
@@ -142,4 +143,18 @@
 // Output: 2
 
 
-// xyz
+// e.g.2 to find user with age = 20
+// This will return first occurence in array
+
+// const users = 
+// [{name:"Abhi" , age:20 , gender:"male"},
+// {name:"Akki" , age:21 , gender:"male"},
+// {name:"Kusu" , age:18 , gender:"female"},
+// {name:"Rani" , age:20 , gender:"female"}
+// ]
+
+// const newdata = users.find(para => para.age === 20);
+// console.log(newdata);
+
+// Output: 
+// { name: 'Abhi', age: 20, gender: 'male' }

@@ -52,13 +52,35 @@
 // console.log(entities);
 
 
+// splice() ------------------------------------------------------------------------------------------------------------
+// syntax: (start_index , no.of elements to be removed,new-item1,item2,.....)
+// Modifies the original array (mutates it).
+//Used for Adding, removing, replacing elements
+// Returns the removed elements (if any).
 
-//splice to remove or add new element              // Remember syntax (start_index , no.of elements to be removed)
+
+//e.g : To remove bag from array ---------------------------------             
 // let entities = ["bag" , "bottle"] ;
 // console.log(entities.splice(0,1));
 // console.log(entities);                     //only item left --output : [ 'bottle' ]
 
-//slice to remove an element
+
+// let nums = [1,2,3,4,5]
+// nums.splice(1,2,"x","y")                    //here index = 1 with value 2 is starting point and , 2 items are to be removed (2,3), x and y to be added
+// console.log(nums)                           //(If we don't add x and y it will only delete items 2,3 )
+
+// Output: [ 1, 'x', 'y', 4, 5 ]
+
+
+
+
+// slice() Method-------------------------------------------------------------------------------------------------
+// Does not modify the original array (creates a new array).
+// Extracts a portion of an array.
+// Returns a shallow copy of the selected elements.
+
+// Syntax: array.slice(startIndex, endIndex);
+
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(fruits.slice(1));                    //output : [ 'Orange', 'Lemon', 'Apple', 'Mango' ] 
 
