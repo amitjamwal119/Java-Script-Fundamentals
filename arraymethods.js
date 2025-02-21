@@ -22,15 +22,17 @@
 
 // console.log(ary.unshift("Plane"));      //adds new element to array in the beginning and shows array's length in output -- output: 4
 
+
+// To add new element in array ------------------------------------------------------
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];   //appends new element at the end of array and display that in the output -- output : Kiwi
 // console.log(fruits[fruits.length] = "Kiwi");
 
-
+// To delete any element from array ---------------------------------------------------
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];   
 // console.log(delete fruits[0]);      // output : true
 // console.log(fruits);    //output: [ <1 empty item>, 'Orange', 'Apple', 'Mango' ]
 
-
+// Joining arrays ----------------------------------------------------------------------- 
 // let mycars = ["volvo", "BMW" , "G-wagon" ];
 // let mybikes = ["Ninja" , "Tirumph" , "Ktm" ];
 // let myVehicles = mycars.concat(mybikes);            //to join arrays we use array1name.concat(array2,array-n)
@@ -41,15 +43,15 @@
 //copyWithin() method doubt 
 
 
-// const myArr = [[1,2],[3,4],[5,6]]; //creates single array from nested array
+// flat() -----------------------------------------------------------------------------------
+//creates single array from nested array
+
+// const myArr = [[1,2],[3,4],[5,6]]; 
 // console.log(myArr.flat());
 
 
 //flatmap method doubt-----
 
-// let entities = ["bag" , "bottle"] ;              //splice method- arrayname.splice(start_index , no.of elements to be removed , "new element")
-// console.log(entities.splice(2,0,"pens"));
-// console.log(entities);
 
 
 // splice() ------------------------------------------------------------------------------------------------------------
@@ -57,7 +59,6 @@
 // Modifies the original array (mutates it).
 //Used for Adding, removing, replacing elements
 // Returns the removed elements (if any).
-
 
 //e.g : To remove bag from array ---------------------------------             
 // let entities = ["bag" , "bottle"] ;
@@ -78,23 +79,25 @@
 // Does not modify the original array (creates a new array).
 // Extracts a portion of an array.
 // Returns a shallow copy of the selected elements.
-
 // Syntax: array.slice(startIndex, endIndex);
 
+//e.g - 1:------------------------------------------------------------
+// const nums = [11,22,33,44,55]
+// const slicednums = nums.slice(1,3)
+
+// console.log(slicednums) 
+
+//e.g - 2:------------------------------------------------------------
 // const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // console.log(fruits.slice(1));                    //output : [ 'Orange', 'Lemon', 'Apple', 'Mango' ] 
 
-// slice creates new array , it doesn't remove elements from main array
 
-
+//e.g - 3:--------------------------------------------------------------
 // let array = ["abhi","akki","vibhu","abu"];          //It includes first argument value and previous value to second argument
 // console.log(array.slice(1,3));                  // output : [ 'akki', 'vibhu' ]
 // console.log(Array.slice(1));                        //// output : [ 'akki', 'vibhu' , 'abu']
 
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];       //arrayname.toString() converts array to string but does'nt replace commas
-// console.log(fruits.toString());                              //output :  Banana,Orange,Apple,Mango
- 
 
  
 
