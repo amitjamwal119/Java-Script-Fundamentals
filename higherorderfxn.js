@@ -142,6 +142,7 @@
 
 // Output: 2
 
+// 
 
 // e.g.2 to find user with age = 20
 // This will return first occurence in array
