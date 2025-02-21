@@ -122,7 +122,7 @@
 //     { name: 'Rani', age: 20, gender: 'female' }
 //   ]
 
-// 👀Condition : To get candidate with age = 21
+// 👀Condition : To get candidate with age = 21-----
 // const newdata = data.filter(para => para.age === 21);
 // console.log(newdata);
 
