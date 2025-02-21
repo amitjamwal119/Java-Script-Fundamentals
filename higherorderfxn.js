@@ -52,7 +52,7 @@
 // const numbers =[11,22,33]
 // const newarray = numbers.map(x => console.log(x*x));
 
-
+// 
 
 
 
