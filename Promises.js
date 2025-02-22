@@ -1,6 +1,51 @@
 // Promises
 // Example: Simulating a Delayed Task
 
+// setTimeout() :
+
+
+
+
+
+//setInterval() :
+//  Runs a function repeatedly at a fixed time interval.
+// If you want to cancel a setTimeout(), use clearTimeout().
+
+//e.g-1 -----------------------------------------------
+// let count = 1;
+
+// setInterval(() => {
+//     console.log(`This runs every 2 seconds. Count: ${count}`);
+//     count++;
+// }, 2000);
+
+//Output : 
+// This runs every 2 seconds. Count: 1
+// This runs every 2 seconds. Count: 2
+// This runs every 2 seconds. Count: 3
+// ...
+
+
+// e.g-2 ----------------------------------------------
+// count = 1;
+
+// const stop = setInterval (() => {
+//     console.log(`Hello, ${count}`);
+//     count++
+    
+//     if (count == 5){
+//        clearInterval(stop)
+//         console.log("Execution stopped")
+//     }
+// },1000)
+
+// Output :
+// Hello, 1
+// Hello, 2
+// Hello, 3
+// Hello, 4
+// Execution stopped
+
 // function fetchData() {
 //   return new Promise((resolve, reject) => {
 //     setTimeout(() => {

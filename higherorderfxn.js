@@ -129,6 +129,24 @@
 
 // Output : [ { name: 'Akki', age: 21, gender: 'male' } ]
 
+//e.g 5: 
+// const users = [
+//                 {name :"Shivam" , age : 25 , gender : "Male"},
+//                 {name :"Cheenu" , age : 22 , gender : "Female"},
+//                 {name :"Parul" , age : 30 , gender : "Male"},
+//                 {name :"Sushi" , age : 24 , gender : "Female"}
+// ]
+
+// const newusers = users.filter(x => x.name === 'Sushi' || x.name === 'Cheenu')
+
+// console.log(newusers)
+
+//Output :
+// [
+//     { name: 'Cheenu', age: 22, gender: 'Female' },
+//     { name: 'Sushi', age: 24, gender: 'Female' }
+//   ]
+
 // find() ----------------------------------------------------------
 // Returns The first matching element.
 // Output Single element or undefined.
